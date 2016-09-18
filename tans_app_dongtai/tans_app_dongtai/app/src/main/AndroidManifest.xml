@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cui.tans_app_dongtai">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="交警动态"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".jiaojingdongtaiMainActivity">
+
+        </activity>
+        <activity android:name=".jiaojingdongtaiDeatailActivity" />
+        <activity android:name=".MessageMainActivity" />
+        <activity android:name=".MessagedetailActivity" />
+        <activity android:name=".TravelGuide">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

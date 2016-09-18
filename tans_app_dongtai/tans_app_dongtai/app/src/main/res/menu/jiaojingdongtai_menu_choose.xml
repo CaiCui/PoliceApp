@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".jiaojingdongtaiMainActivity">
+    <item
+        android:id="@+id/home"
+        android:title="主页"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/all"
+        android:title="全部"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/Announcement"
+        android:orderInCategory="100"
+        android:title="交通公告"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Law"
+        android:title="法律法规"
+        app:showAsAction="never"/>
+
+
+</menu>
